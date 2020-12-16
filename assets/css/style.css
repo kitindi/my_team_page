@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@400;600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+     background: #d8d4d4;
+    ;
+  }
+.team .container{
+    width: 100%;
+    padding: 0 10px;
+   
+}
+.team .container div{
+    padding: 20px 0;
+}
+.team .container h1{
+    font-family: PT Serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    text-align: left;
+
+}
+.team .container h3{
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+  
+}
+.team .container p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: .1em;
+    text-align: left;
+    margin-top: 15px;
+
+}
+
+.team .team-profile{
+    display: flex;
+    flex-wrap: wrap;
+}
+.team .team-profile .profile-card{
+   width: 50%;
+   height: 290px;
+   display: flex;
+}
+.team .team-profile .profile-card img{
+    width: 100%;
+}
+
+.team .team-profile .profile-card h4{
+    font-family: PT Serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    display:flex;
+    justify-content: flex-start;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.team .team-profile .profile-card figcaption{
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+..team .team-profile .profile-card .role:nth-child(1){
+    justify-self: flex-start;
+}
