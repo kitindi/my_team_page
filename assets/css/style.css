@@ -63,11 +63,12 @@ body {
 }
 .team .team-profile .profile-card img{
     width: 100%;
+    height:80%;
 }
 
 .team .team-profile .profile-card h4{
     font-family: PT Serif;
-    font-size: 10px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 13px;
@@ -88,6 +89,6 @@ body {
     text-align: left;
 
 }
-..team .team-profile .profile-card .role:nth-child(1){
-    justify-self: flex-start;
+.team .team-profile .profile-card .img-1 {
+    align-items: flex-end;
 }
