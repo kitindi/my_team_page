@@ -12,7 +12,11 @@ body {
      background: #FAFAFA;
      ;
   }
-
+footer{
+    width: 350px;
+    margin: 0 auto;
+    padding: 2rem;
+}
   @media(max-width:375px){
       
 .team-profile{
